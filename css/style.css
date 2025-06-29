@@ -35,6 +35,13 @@ body {
   font-size: 20px;
   transition: 0.3s;
 }
+.social-icons a {
+  pointer-events: auto !important;
+  z-index: 1000;
+  position: relative;
+  color: white;
+}
+
 
 .social-icons a:hover {
   color: #f39c12;
